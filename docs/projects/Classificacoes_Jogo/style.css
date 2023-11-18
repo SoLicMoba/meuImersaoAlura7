@@ -1,0 +1,85 @@
+* {
+    text-align: center;
+  }
+  
+  body {
+    font-family: "Roboto Mono", monospace;
+    height: 100vh;
+    min-height: 400px;
+    background-image: url(./src/img/Irelia-bg-edited.png);
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  table {
+    border: 2px solid white;
+    border-collapse: collapse;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  th,
+  tr,
+  td {
+    border: solid 1px white;
+    color: white;
+  }
+  
+  button {
+    background-color: #002351;
+    color: #f6f6f6;
+  }
+
+  .add-rem {
+    position: fixed;
+    right: 4em;
+    bottom: 4em;
+    margin-top: 10em;
+    height: 53vh;
+    display: flex;
+    justify-content:end;
+    align-items: end;
+    
+  }
+  
+  #adicionarNovoJogador, #resetarJogadores {
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50px 0px 50px 25px;
+    z-index: 999;
+    width: 160px;
+  }
+
+

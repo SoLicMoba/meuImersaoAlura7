@@ -1,0 +1,95 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url(./img/onepiece-bg.png);
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: repeat;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  #listaFilmes img {
+    margin: 10px;
+    max-height: 250px;
+    max-width: 300px;
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+     input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+  }
+  
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #da1e26;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .form-wrapper button:hover {
+    opacity: 0.8;
+  }
+  
+  .form-wrapper {
+    padding: 20px;
+  }
+
+/* Alteração por mim */
+
+  .form-wrapper div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+  label {
+    color: white;
+  }
+
+  #listaFilmes {
+    color: white;
+    display: flex;
+    width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items:baseline ;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  #listaFilmes div {
+    width: 300px;
+    text-align: center;
+  }

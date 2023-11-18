@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <h1>Classificação multi-jogador LoL</h1>
+      
+        <table style="width:100%">
+          <thead>
+            <tr>
+              <th>Invocador</th>
+              <th style="min-width: 30px;">K</th>
+              <th style="min-width: 30px;">D</th>
+              <th style="min-width: 30px;">A</th>
+              <th>Victories</th>
+              <th>Defeats</th>
+              <th colspan="6">Ações</th>
+            </tr>
+          </thead>
+          <tbody id="tabelaJogadores">
+          </tbody>
+        </table>
+        <div class="add-rem">
+          <button type="button" id="resetarJogadores">Resetar Jogadores</button>
+          <button type="button" id="adicionarNovoJogador">Adicionar novo jogador</button>
+          
+          
+        </div>
+        <script src="./src/js/index.js"></script>
+        
+</body>
+</html>

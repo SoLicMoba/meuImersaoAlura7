@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alura flix Filmes Preferidos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">Aluraflix</h1>
+      <img
+        src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe"
+        class="page-logo"
+        alt=""
+      />
+      <p class="page-subtitle">Qual seu filme favorito?</p>
+      <div class="form-wrapper">
+        <div>
+            <label for="nomeDoFilme">Nome do filme ou série</label>
+            <input type="text" id="nomeDoFilme" placeholder="Nome do conteúdo aqui" name="nomeDoFilme">
+        </div>
+
+        <div>
+            <label for="filme">Endereço de imagem URL</label>
+        <input
+          type="text"
+          id="filme"
+          name="filme"
+          placeholder="Insira endereço de imagem"
+        />
+        </div>
+        <div>
+            <label for="trailer">Link do trailer</label>
+        <input
+          type="text"
+          id="trailer"
+          name="trailer"
+          placeholder="Insira endereço do vídeo"
+        />
+        </div>
+        <button onClick="adicionarFilme()">Adicionar Filme/Série</button>
+      </div>
+    </div>
+    <div id="listaFilmes">  
+        <!-- <div>
+            <h2>Homem aranha</h2>
+            <img src="https://sm.ign.com/ign_br/screenshot/default/image002_uuhb.jpg" alt="">
+        </div>
+        <div>
+            <h2>Spider man</h2>
+            <img src="https://sm.ign.com/ign_br/screenshot/default/image002_uuhb.jpg" alt="">
+        </div> -->
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+
+    <script src="script.js"></script>
+  </body>
+</html>

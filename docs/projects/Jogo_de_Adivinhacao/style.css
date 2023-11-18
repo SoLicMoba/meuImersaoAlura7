@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./img/stranger-things-season-4-art-hd-wallpaper-uhdpaper.com-245@1@h.jpg);
+    background-position: center;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    word-break:break-all;
+}
+
+main {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap:break-word;
+}
+
+.container {
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 30vw;
+    height: 60vh;
+    display: flex;  
+    border: solid 2px black;
+    box-shadow: 0px 0px 5em 0 red;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    min-height: 500px;
+    min-width: 500px;
+    word-wrap:break-word;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        
+        width: 50vw;
+        
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        
+        width: 65vw;
+        
+    }
+}
+@media (max-width: 425px) {
+    .container {
+        
+        width: 80vw;
+        
+    }
+}
+
+form {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container label {
+    font-weight: bold;
+}
+
+.container input {
+    border-radius: 4px;
+    padding-left: 2px;
+    font-size: 18px;
+    outline: none;
+    width: 80px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px white;
+    color: white;
+    padding: 3px 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+form button {
+    padding: 6px;
+    background-color: rgb(255, 95, 71);
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: rgb(151, 36, 19);
+    color: white;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 45vw;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.dica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.dica button {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(255, 95, 71);
+    transition: 0.2s;
+}
+
+.dica button:hover {
+    background: rgb(151, 36, 19);
+}
+
+.dica p {
+    display: none;
+}
+
+.reload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dnone {
+    display: none;
+}
+
+.reload button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 34, 0, 0);
+    transition: 0.2s;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.reload button:hover {
+    color: black;
+    background: rgb(208, 60, 38);
+}
+
+#txtDica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    word-break:keep-all;
+    word-wrap:break-word;
+}

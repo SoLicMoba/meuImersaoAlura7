@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mentalista</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Mentalista</h1>
+
+        <form id="form">
+          <label for="req"> Tente acertar um número entre 0 e 1000 </label>
+          <div>
+            <input id="req" type="number" />
+            <button id="calcular" disabled onclick="resposta() " type="button">
+              Calcular
+            </button>
+          </div>
+        </form>
+
+        <div class="informacoes">
+          <div class="resultado"></div>
+          <div class="reload dnone">
+            <button onclick="jogarDenovo()">Jogar denovo</button>
+            
+          </div>
+
+          <div class="tentativas">Você tentou 0 vezes.</div>
+          <div class="dica dnone">
+            <button class="botaoDica">Dica</button>
+            <div id="txtDica"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
