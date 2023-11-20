@@ -79,7 +79,3 @@ body {
     background: rgb(0, 178, 178);
     transition: 0.2s;
 }
-
-.resultado {
-    max-width: 52.5vw;
-}

@@ -82,4 +82,52 @@
     width: 160px;
   }
 
+@media screen and (max-width: 425px) {
+  body {
+    padding: 0;
+  }
+  body {
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    
+  }
+  table {
+    display: flex;
+    max-width: 100vw;
+    table-layout: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+  }
+  table th {
+    display: none;
+  }
+  table tr {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1em;
 
+  }
+  table td {
+      width: 60vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  table {
+    position: relative;
+  }
+
+  .add-rem {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    right: 25px;
+  }
+}

@@ -61,11 +61,30 @@ main {
         
     }
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
     .container {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+    #form label {
         
-        width: 80vw;
+        width: clamp(50%, 70%, 80%);
+        display: block;
+        color: red;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+    #form label {
         
+        width: clamp(50%, 70%, 80%);
+        display: block;
+        color: red;
     }
 }
 
@@ -198,3 +217,6 @@ form button:hover {
     word-break:keep-all;
     word-wrap:break-word;
 }
+
+/* Responsividade */
+

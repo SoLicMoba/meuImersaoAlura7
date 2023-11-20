@@ -47,3 +47,10 @@ img {
   padding: 10px;
   color: white;
 }
+
+@media (max-width: 425px) {
+  .mugiwaras > div img {
+    width: 100%;
+    
+  }
+}
